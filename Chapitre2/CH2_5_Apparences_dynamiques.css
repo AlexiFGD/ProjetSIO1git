@@ -1,0 +1,58 @@
+h1 {
+    color: red;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+.test {
+    font-family: Arial,sans-serif;
+    color: purple;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom : 20px;
+}
+.test2 {
+    font-family: Arial,sans-serif;
+    color: purple;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom : 20px;
+}
+.test3 {
+    font-family: Arial,sans-serif;
+    font-size: 11px;
+    margin-bottom : 25px;
+    text-indent: 20px;
+}
+.test4 {
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: blue;
+    list-style-type: decimal;
+}
+.test5 {
+    font-family: "Times New Roman",sans-serif;
+    font-size: 12px;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-style: italic;
+}
+.test6 {
+    text-decoration: underline;
+}
+.test7 {
+    text-indent: 12px;
+}
+h2:active, h1:active{
+    text-decoration: underline;
+}
+h2:hover, h1:hover{
+    color: green;
+}
+p:hover {
+ font-style: italic ;
+}

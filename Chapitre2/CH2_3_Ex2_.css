@@ -1,0 +1,32 @@
+.titre{
+    color: #8700fd;
+}
+.titre2{
+    color: white;
+}
+p{
+    color: grey;
+}
+body{
+    background-image: url("pingouin.png");
+    background-repeat: no-repeat,repeat;
+    background-attachment: fixed,scroll;
+    background-position: center 0,0 0;
+    background-color: #768744;
+    background-size: 1500px;
+}
+cite{
+    color: white;
+}
+article{
+    background-color: rgba(219, 61, 47, 0.53);
+    background-image: url("pingouin.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section{
+    background-color: rgba(185, 121, 94, 0.59);
+}
+.p1{
+    color: white;
+}

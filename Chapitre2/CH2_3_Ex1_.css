@@ -1,0 +1,18 @@
+.titre{
+    color: purple;
+}
+.titre2{
+    color: white;
+}
+.para{
+    color: white;
+}
+body{
+    background-image: url("pingouin.png"),url("feuilles.png");
+    background-repeat: no-repeat,repeat;
+    background-attachment: fixed,scroll;
+    background-position: center 0,0 0;
+}
+.para1{
+    color: white;
+}
