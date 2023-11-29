@@ -22,7 +22,6 @@ body {
     color: black;
 }
 
-.topnav a.active {
+.couleur {
     background-color: #04AA6D;
-    color: white;
 }

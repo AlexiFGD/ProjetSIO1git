@@ -25,3 +25,8 @@ body {
 .couleur {
    background-color: #04AA6D;
 }
+.pacc {
+    text-align: center;
+    font-size: 40pt;
+    margin-top: 200px;
+}
