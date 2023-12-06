@@ -18,15 +18,27 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #ffffff;
+    background-color: deepskyblue;
     color: black;
 }
 
 .couleur {
-   background-color: #04AA6D;
+   background-color: darkblue;
 }
 .pacc {
     text-align: center;
     font-size: 40pt;
-    margin-top: 200px;
+    font-weight: bold;
+    margin-top: 300px;
+    margin-bottom: -250px;
+    color: white;
+}
+body{
+    backdrop-filter: blur(7px);
+    background-image: url("../Images/resaux.jpeg");
+    height: 893px;
+    background-size: cover;
+    background-repeat: no-repeat,repeat;
+    background-attachment: fixed,scroll;
+    background-position: center 0,0 0;
 }

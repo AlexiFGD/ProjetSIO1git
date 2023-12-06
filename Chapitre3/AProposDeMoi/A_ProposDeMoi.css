@@ -1,8 +1,11 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
+ul{
+    margin-left: 100px;
+}
 .topnav {
     overflow: auto;
     background-color: #333;
@@ -18,10 +21,45 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: deepskyblue;
     color: black;
 }
 
 .couleur {
-    background-color: #04AA6D;
+    background-color: #00008a;
 }
+.btn {
+    background-color: darkblue;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.btn-color{
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: deepskyblue;
+}
+body{
+    backdrop-filter: blur(7px);
+    background-image: url("../Images/resaux.jpeg");
+    height: 893px;
+    background-size: cover;
+    background-repeat: no-repeat,repeat;
+    background-attachment: fixed,scroll;
+    background-position: center 0,0 0;
+}
+.article1{
+    background-color: white;
+    border-radius: 20px;
+}
+h1,p {
+     margin-top: 25px;
+     margin-left:50px;
+     padding: 22px;
+ }

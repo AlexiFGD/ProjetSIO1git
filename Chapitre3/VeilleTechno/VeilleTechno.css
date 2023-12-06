@@ -18,9 +18,18 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: deepskyblue;
     color: black;
 }
 .couleur {
-    background-color: #04AA6D;
+    background-color: darkblue;
+}
+body{
+    backdrop-filter: blur(7px);
+    background-image: url("../Images/resaux.jpeg");
+    height: 893px;
+    background-size: cover;
+    background-repeat: no-repeat,repeat;
+    background-attachment: fixed,scroll;
+    background-position: center 0,0 0;
 }
