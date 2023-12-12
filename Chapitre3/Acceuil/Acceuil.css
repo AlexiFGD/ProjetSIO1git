@@ -42,3 +42,11 @@ body{
     background-attachment: fixed,scroll;
     background-position: center 0,0 0;
 }
+.emoticone{
+    height: 25px;
+    margin:10px 20px 0 990px;
+    transition: 2s ;
+}
+.emoticone:hover{
+    transform: rotate(360deg);
+}

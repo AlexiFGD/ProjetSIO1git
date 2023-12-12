@@ -44,3 +44,11 @@ body{
     margin-left: 50px;
     padding: 1px;
 }
+.emoticone{
+    height: 25px;
+    margin:10px 20px 0 990px;
+    transition: 2s ;
+}
+.emoticone:hover{
+    transform: rotate(360deg);
+}
