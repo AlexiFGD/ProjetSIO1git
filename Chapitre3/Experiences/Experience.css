@@ -34,21 +34,76 @@ body{
     background-attachment: fixed,scroll;
     background-position: center 0,0 0;
 }
-.article1{
+article{
+    margin-top: 40px;
     background-color: white;
     border-radius: 20px;
 
 }
 .paraStage{
-    margin-top: 25px;
+    margin-top: 10px;
     margin-left: 50px;
     padding: 1px;
 }
 .emoticone{
     height: 25px;
-    margin:10px 20px 0 990px;
+    margin:10px 20px 0 980px;
     transition: 2s ;
 }
 .emoticone:hover{
     transform: rotate(360deg);
 }
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+.div3 {
+    grid-area: 2 / 2 / 3 / 2;
+}
+.div4 {
+    grid-area: 2 / 1 / 2 / 2;
+}
+.div5 {
+    grid-area: 3 / 1 / 3/ 2;
+}
+.div6 {
+     grid-area: 3 / 2 / 4 / 4;
+ }
+.div7 {
+    grid-area: 7 / 2 / 4 / 5;
+}
+.div8 {
+    grid-area: 7 / 1 / 4 / 6;
+}
+.div9 {
+    grid-area: 7 / 1 / 5 / 3;
+}
+.div10{
+    grid-area: 7 / 2 / 5 / 3;
+}
+.div11 {
+    grid-area: 7 / 2 / 6 / 3;
+}
+.div12 {
+    grid-area: 7 / 1 / 6 / 3;
+}
+.div13 {
+    grid-area: 7 / 1 / 7 / 3;
+}
+.Stage1{
+    height: 300px;
+}
+.headExp{
+margin:0 0 10px 50px ;
+}
+
+

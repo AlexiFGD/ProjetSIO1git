@@ -6,3 +6,5 @@
 
 => overflow : définit la façon dont le contenue, qui dépasse l'espace qui lui est réservé.
 => text decoration : Permet d'ajouter une ligne sous ou sur le texte.
+
+!!! Attention au Problème de compatibilité !!!!
